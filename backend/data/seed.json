@@ -1,0 +1,2228 @@
+{
+  "users": [
+    {
+      "id": "9420f265-7883-51a7-beca-93a7871f4af4",
+      "email": "admin@nexus.test",
+      "role": "Admin",
+      "active": true,
+      "passwordHash": "pbkdf2_sha256$1000000$ObIqwdIdc2o2BPX6wQPh2a$2iP4g3yCTuplRPCDzaJD+HeAk5X+g4gn7sV64A/17A4="
+    },
+    {
+      "id": "612b59c3-0ce9-5865-bd03-5585d394384a",
+      "email": "hr@nexus.test",
+      "role": "HR",
+      "active": true,
+      "passwordHash": "pbkdf2_sha256$1000000$uXVFBAotQHlz3Gk8IjUaQQ$qliOE0vIVz7XQREF2p2kexQ/D8nslx68/iHa7dBDzpc="
+    },
+    {
+      "id": "8b6bb216-94f0-5917-8014-91531817374e",
+      "email": "finance@nexus.test",
+      "role": "Finance",
+      "active": true,
+      "passwordHash": "pbkdf2_sha256$1000000$t4UBGnrmF7qIUtK2ySK9P2$pDT9ht0MYn0TUu90myG5zhzgnia+Ev5X+8LmO/uALlI="
+    },
+    {
+      "id": "8c7f74a3-93d1-5326-b10c-7f4c4e435f6e",
+      "email": "sales@nexus.test",
+      "role": "Sales",
+      "active": true,
+      "passwordHash": "pbkdf2_sha256$1000000$fWjfIAlwWMi0L7vjYVM2lv$BvnoIyC+azz1r+ugcj9Iftwvx+y6cHGm+MbZH6UhGIY="
+    },
+    {
+      "id": "89dffdc0-e52e-5a53-9bca-f69a6e004f0b",
+      "email": "inventory@nexus.test",
+      "role": "Inventory",
+      "active": true,
+      "passwordHash": "pbkdf2_sha256$1000000$jgZFX469DitE9lgMWa7AKG$BsyRIQUKRujIqg0f92NOPUkUmnWs6f6EwCMJeqwgmSk="
+    }
+  ],
+  "employees": [
+    {
+      "id": "d10a2c6b-82c6-5703-a1e7-c738233d08f2",
+      "name": "Ana Reyes",
+      "email": "ana@nexus.test",
+      "departmentId": "9c7c42e3-6d96-5eb8-a4fd-eb6a664f2dd4",
+      "position": "Staff",
+      "salary": 25000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "0f0ac867-008d-5df7-81af-ca582f9f8d0e",
+      "name": "Ben Reyes",
+      "email": "ben@nexus.test",
+      "departmentId": "4f873c59-cbb8-50ff-b821-aba31aacfab6",
+      "position": "Staff",
+      "salary": 27000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "06da05b0-71b9-5e33-abd1-ffd3c57ed10a",
+      "name": "Carla Reyes",
+      "email": "carla@nexus.test",
+      "departmentId": "7dfd42e3-168f-5307-a6fa-1a2f34c457e0",
+      "position": "Staff",
+      "salary": 29000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "name": "Dino Reyes",
+      "email": "dino@nexus.test",
+      "departmentId": "883b21db-c65d-5ff4-9d47-a78096b0a3e3",
+      "position": "Staff",
+      "salary": 31000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "c3bb4159-f24b-5677-a251-3dc484b01041",
+      "name": "Ella Reyes",
+      "email": "ella@nexus.test",
+      "departmentId": "af39ffb9-05cf-5c75-b55d-587794a21a38",
+      "position": "Staff",
+      "salary": 33000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "62890ece-811e-54c0-a762-9defde7c3432",
+      "name": "Felix Reyes",
+      "email": "felix@nexus.test",
+      "departmentId": "9c7c42e3-6d96-5eb8-a4fd-eb6a664f2dd4",
+      "position": "Staff",
+      "salary": 35000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "f63c4e46-d694-591e-95b5-e26fd41faf04",
+      "name": "Gina Reyes",
+      "email": "gina@nexus.test",
+      "departmentId": "4f873c59-cbb8-50ff-b821-aba31aacfab6",
+      "position": "Staff",
+      "salary": 37000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "def990da-d096-5686-b1de-b656470c9d54",
+      "name": "Hugo Reyes",
+      "email": "hugo@nexus.test",
+      "departmentId": "7dfd42e3-168f-5307-a6fa-1a2f34c457e0",
+      "position": "Staff",
+      "salary": 39000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "c7673f5e-6b1e-531d-b387-d8ef056d5478",
+      "name": "Iris Reyes",
+      "email": "iris@nexus.test",
+      "departmentId": "883b21db-c65d-5ff4-9d47-a78096b0a3e3",
+      "position": "Staff",
+      "salary": 41000,
+      "hireDate": "2024-03-01"
+    },
+    {
+      "id": "b74d0103-bd90-57fb-9c1f-10ea4141cdf6",
+      "name": "Jon Reyes",
+      "email": "jon@nexus.test",
+      "departmentId": "af39ffb9-05cf-5c75-b55d-587794a21a38",
+      "position": "Staff",
+      "salary": 43000,
+      "hireDate": "2024-03-01"
+    }
+  ],
+  "departments": [
+    {
+      "id": "9c7c42e3-6d96-5eb8-a4fd-eb6a664f2dd4",
+      "name": "Executive",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "4f873c59-cbb8-50ff-b821-aba31aacfab6",
+      "name": "HR",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "7dfd42e3-168f-5307-a6fa-1a2f34c457e0",
+      "name": "Finance",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "883b21db-c65d-5ff4-9d47-a78096b0a3e3",
+      "name": "Sales",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "af39ffb9-05cf-5c75-b55d-587794a21a38",
+      "name": "Warehouse",
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "8220c371-c566-5003-9cab-9e97bd3db7de",
+      "employeeId": "d10a2c6b-82c6-5703-a1e7-c738233d08f2",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "757df588-2582-5eff-a230-e003f6250ff6",
+      "employeeId": "0f0ac867-008d-5df7-81af-ca582f9f8d0e",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "b3bef9cb-4cbe-55e7-beea-063b1d113af0",
+      "employeeId": "06da05b0-71b9-5e33-abd1-ffd3c57ed10a",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "be56eadb-399a-5e67-acab-81ffdffcd4a9",
+      "employeeId": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "a501bf77-f229-5590-871f-e7d5323e266a",
+      "employeeId": "c3bb4159-f24b-5677-a251-3dc484b01041",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "a2543b54-833e-556f-b20f-c88e66f946e3",
+      "employeeId": "62890ece-811e-54c0-a762-9defde7c3432",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "fc4befd4-8562-5956-a16e-cc2c2a238410",
+      "employeeId": "f63c4e46-d694-591e-95b5-e26fd41faf04",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "ac377aff-d44f-529f-840c-35b21df70033",
+      "employeeId": "def990da-d096-5686-b1de-b656470c9d54",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "85c9cbfa-1815-5b7e-bb07-62d394b44db7",
+      "employeeId": "c7673f5e-6b1e-531d-b387-d8ef056d5478",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "6836a8e4-01e8-55d2-9e33-3380436d9b38",
+      "employeeId": "b74d0103-bd90-57fb-9c1f-10ea4141cdf6",
+      "date": "2026-10-01",
+      "status": "present"
+    },
+    {
+      "id": "8c7cb52a-ac14-524f-a36f-93a4981d3ebe",
+      "employeeId": "d10a2c6b-82c6-5703-a1e7-c738233d08f2",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "a860688d-7aaa-5f49-a9b6-4087cb20b8ef",
+      "employeeId": "0f0ac867-008d-5df7-81af-ca582f9f8d0e",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "6f59ffd6-62eb-5d55-a049-5e0f7b98c73f",
+      "employeeId": "06da05b0-71b9-5e33-abd1-ffd3c57ed10a",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "e40ad05c-e88c-5885-84cc-d58205483881",
+      "employeeId": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "bb6e31a4-e99f-5f3c-a166-a52bc04ceb3a",
+      "employeeId": "c3bb4159-f24b-5677-a251-3dc484b01041",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "e7322914-5d89-5406-b404-3e8022c3a9b1",
+      "employeeId": "62890ece-811e-54c0-a762-9defde7c3432",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "5fcb5fda-2c47-5f9d-a639-a726b51785ff",
+      "employeeId": "f63c4e46-d694-591e-95b5-e26fd41faf04",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "6a2e624f-bdbc-59fc-8339-30a57d262ff6",
+      "employeeId": "def990da-d096-5686-b1de-b656470c9d54",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "2a2c613f-d339-53cf-82ed-e730d0effb40",
+      "employeeId": "c7673f5e-6b1e-531d-b387-d8ef056d5478",
+      "date": "2026-10-02",
+      "status": "present"
+    },
+    {
+      "id": "2b4ea639-e7e6-53dd-8cef-d0b5bb7db855",
+      "employeeId": "b74d0103-bd90-57fb-9c1f-10ea4141cdf6",
+      "date": "2026-10-02",
+      "status": "present"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "e3c023b7-d6c5-55a7-b6d6-13c371394563",
+      "employeeId": "d10a2c6b-82c6-5703-a1e7-c738233d08f2",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "88e216af-2d91-5680-b4d1-57f8cb84362a",
+      "employeeId": "0f0ac867-008d-5df7-81af-ca582f9f8d0e",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "999f102c-1c77-57aa-887c-2b03f47561fe",
+      "employeeId": "06da05b0-71b9-5e33-abd1-ffd3c57ed10a",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "6eca5e39-0105-5e4d-b7aa-6280c13779e6",
+      "employeeId": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "e10ccbd1-a6fa-572f-b32a-28d45c1a8bb5",
+      "employeeId": "c3bb4159-f24b-5677-a251-3dc484b01041",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "bbecf2f6-8cab-598d-8a55-7b81a6044895",
+      "employeeId": "62890ece-811e-54c0-a762-9defde7c3432",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "66611e10-4f6d-51fa-9a44-11f92bda09ee",
+      "employeeId": "f63c4e46-d694-591e-95b5-e26fd41faf04",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "e75755a1-4e24-50be-8ffe-d5b5e2dd029e",
+      "employeeId": "def990da-d096-5686-b1de-b656470c9d54",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "8d0f1d2a-97b4-55a3-8dc5-8b8619c6ecd5",
+      "employeeId": "c7673f5e-6b1e-531d-b387-d8ef056d5478",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "0786c0f9-d2cc-5393-a920-c906eed5ca52",
+      "employeeId": "b74d0103-bd90-57fb-9c1f-10ea4141cdf6",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "status": "pending",
+      "createdAt": "2026-10-20"
+    }
+  ],
+  "customers": [
+    {
+      "id": "e0c1a8d8-c699-5766-87fd-5e95941205b4",
+      "name": "Customer 1 Corp",
+      "email": "c1@client.test",
+      "phone": "09170000000"
+    },
+    {
+      "id": "6edc2ab4-5c29-5f8f-a6d8-c59607a2b997",
+      "name": "Customer 2 Corp",
+      "email": "c2@client.test",
+      "phone": "09170000001"
+    },
+    {
+      "id": "045d08f0-3d9b-5d69-bdd1-b30346e65e95",
+      "name": "Customer 3 Corp",
+      "email": "c3@client.test",
+      "phone": "09170000002"
+    },
+    {
+      "id": "9883fe54-8f88-531a-8d19-4e6444bc20b3",
+      "name": "Customer 4 Corp",
+      "email": "c4@client.test",
+      "phone": "09170000003"
+    },
+    {
+      "id": "a0230c03-d251-50c3-a0ef-bd3d7ba979b0",
+      "name": "Customer 5 Corp",
+      "email": "c5@client.test",
+      "phone": "09170000004"
+    },
+    {
+      "id": "d823229c-0481-54b3-ae94-3348c46a005b",
+      "name": "Customer 6 Corp",
+      "email": "c6@client.test",
+      "phone": "09170000005"
+    },
+    {
+      "id": "5995b2ae-64c0-5356-ba80-64784c2b70cc",
+      "name": "Customer 7 Corp",
+      "email": "c7@client.test",
+      "phone": "09170000006"
+    },
+    {
+      "id": "6117bc08-a680-50b5-8f08-b6b9fb3a5dbe",
+      "name": "Customer 8 Corp",
+      "email": "c8@client.test",
+      "phone": "09170000007"
+    },
+    {
+      "id": "f12cc8f3-c5c1-5cf0-ab5f-92b86ef8df7c",
+      "name": "Customer 9 Corp",
+      "email": "c9@client.test",
+      "phone": "09170000008"
+    },
+    {
+      "id": "9d8cf0e5-c6ae-5926-ac35-67a23d228bff",
+      "name": "Customer 10 Corp",
+      "email": "c10@client.test",
+      "phone": "09170000009"
+    },
+    {
+      "id": "ddc3b5c2-41a9-5de4-a393-f0d7c3ab04d7",
+      "name": "Customer 11 Corp",
+      "email": "c11@client.test",
+      "phone": "09170000010"
+    },
+    {
+      "id": "c3f3c3b4-e191-510d-98a0-4b3a49a741d1",
+      "name": "Customer 12 Corp",
+      "email": "c12@client.test",
+      "phone": "09170000011"
+    },
+    {
+      "id": "7859599c-be47-5190-b9da-3eaf3e3db44b",
+      "name": "Customer 13 Corp",
+      "email": "c13@client.test",
+      "phone": "09170000012"
+    },
+    {
+      "id": "e070eae0-7148-5334-8c61-1c28b85f5a6c",
+      "name": "Customer 14 Corp",
+      "email": "c14@client.test",
+      "phone": "09170000013"
+    },
+    {
+      "id": "01f52396-1088-55d5-901a-2440b28076f2",
+      "name": "Customer 15 Corp",
+      "email": "c15@client.test",
+      "phone": "09170000014"
+    }
+  ],
+  "leads": [
+    {
+      "id": "a2523041-b268-55ac-a100-87579c5c86ea",
+      "name": "Lead 1",
+      "stage": "new",
+      "assignedTo": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "followUp": "2026-11-15"
+    },
+    {
+      "id": "0bb887ed-2505-5004-9ab8-082db2b76cbd",
+      "name": "Lead 2",
+      "stage": "contacted",
+      "assignedTo": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "followUp": "2026-11-15"
+    },
+    {
+      "id": "ba590f5f-7949-57bd-b279-78f0740f9111",
+      "name": "Lead 3",
+      "stage": "qualified",
+      "assignedTo": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "followUp": "2026-11-15"
+    },
+    {
+      "id": "6197a165-d607-577e-a4d7-bbac5b64cb5c",
+      "name": "Lead 4",
+      "stage": "proposal",
+      "assignedTo": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "followUp": "2026-11-15"
+    },
+    {
+      "id": "61215406-1cc5-5123-9ea9-41f4886ce578",
+      "name": "Lead 5",
+      "stage": "won",
+      "assignedTo": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "followUp": "2026-11-15"
+    },
+    {
+      "id": "9c58d160-d4dd-5bca-a72d-d8a9a5d58798",
+      "name": "Lead 6",
+      "stage": "lost",
+      "assignedTo": "dc32dfbf-22d4-5825-b3db-feadffcf0d09",
+      "followUp": "2026-11-15"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "36acf8b4-72b3-5286-94c5-8bed51d34742",
+      "name": "Supplier 1 Trading"
+    },
+    {
+      "id": "dd994c40-116e-59e2-9e0c-bf2ca67b524e",
+      "name": "Supplier 2 Trading"
+    },
+    {
+      "id": "213b835c-2319-56cc-b71d-0fc6bd6f5412",
+      "name": "Supplier 3 Trading"
+    },
+    {
+      "id": "7e746add-bb1e-5925-bf60-9b8d2cc91e6e",
+      "name": "Supplier 4 Trading"
+    },
+    {
+      "id": "72121ceb-6d14-504c-9387-413590627a0d",
+      "name": "Supplier 5 Trading"
+    },
+    {
+      "id": "32aaf3ce-c0d1-5cb2-9ba3-c2a68837246d",
+      "name": "Supplier 6 Trading"
+    },
+    {
+      "id": "5353c740-a194-5229-95bb-ae46e2231798",
+      "name": "Supplier 7 Trading"
+    },
+    {
+      "id": "85cb1bc3-7cd9-588f-a7ad-95aa8d16b6c8",
+      "name": "Supplier 8 Trading"
+    }
+  ],
+  "categories": [
+    {
+      "id": "90c69496-67e4-596d-a969-2b61481b491c",
+      "name": "Electronics"
+    },
+    {
+      "id": "50b4c240-a50a-51f6-82aa-824537e1f08b",
+      "name": "Office"
+    },
+    {
+      "id": "23913638-f80c-59c3-8c34-52122b7c509b",
+      "name": "Furniture"
+    },
+    {
+      "id": "17b6ef5a-b496-59b9-a435-f337f111d485",
+      "name": "Packaging"
+    },
+    {
+      "id": "74cfd841-4440-5e42-a390-10d9f21892a6",
+      "name": "Tools"
+    }
+  ],
+  "products": [
+    {
+      "id": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+      "sku": "SKU-001",
+      "name": "Product 1",
+      "categoryId": "90c69496-67e4-596d-a969-2b61481b491c",
+      "price": 100,
+      "cost": 60,
+      "stock": 42,
+      "reorderLevel": 10
+    },
+    {
+      "id": "763ffb6a-7a0a-509c-be3a-aa0404d4351e",
+      "sku": "SKU-002",
+      "name": "Product 2",
+      "categoryId": "50b4c240-a50a-51f6-82aa-824537e1f08b",
+      "price": 125,
+      "cost": 75,
+      "stock": 50,
+      "reorderLevel": 10
+    },
+    {
+      "id": "2d64d2c9-e623-522d-af83-a22c73123571",
+      "sku": "SKU-003",
+      "name": "Product 3",
+      "categoryId": "23913638-f80c-59c3-8c34-52122b7c509b",
+      "price": 150,
+      "cost": 90,
+      "stock": 97,
+      "reorderLevel": 10
+    },
+    {
+      "id": "670ad7af-5ad5-5dfd-8866-6e37ccbac7ad",
+      "sku": "SKU-004",
+      "name": "Product 4",
+      "categoryId": "17b6ef5a-b496-59b9-a435-f337f111d485",
+      "price": 175,
+      "cost": 105,
+      "stock": 108,
+      "reorderLevel": 10
+    },
+    {
+      "id": "b771298f-1840-5dca-ae42-5950fb99fc08",
+      "sku": "SKU-005",
+      "name": "Product 5",
+      "categoryId": "74cfd841-4440-5e42-a390-10d9f21892a6",
+      "price": 200,
+      "cost": 120,
+      "stock": 43,
+      "reorderLevel": 10
+    },
+    {
+      "id": "5dc75683-a68f-518f-8d99-67fbce8154f2",
+      "sku": "SKU-006",
+      "name": "Product 6",
+      "categoryId": "90c69496-67e4-596d-a969-2b61481b491c",
+      "price": 225,
+      "cost": 135,
+      "stock": 50,
+      "reorderLevel": 10
+    },
+    {
+      "id": "d6006012-6714-5ea2-a04c-36d5787f478f",
+      "sku": "SKU-007",
+      "name": "Product 7",
+      "categoryId": "50b4c240-a50a-51f6-82aa-824537e1f08b",
+      "price": 250,
+      "cost": 150,
+      "stock": 94,
+      "reorderLevel": 10
+    },
+    {
+      "id": "59834d35-2eb1-56ef-a3e8-37786f32a976",
+      "sku": "SKU-008",
+      "name": "Product 8",
+      "categoryId": "23913638-f80c-59c3-8c34-52122b7c509b",
+      "price": 275,
+      "cost": 165,
+      "stock": 100,
+      "reorderLevel": 10
+    },
+    {
+      "id": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+      "sku": "SKU-009",
+      "name": "Product 9",
+      "categoryId": "17b6ef5a-b496-59b9-a435-f337f111d485",
+      "price": 300,
+      "cost": 180,
+      "stock": 48,
+      "reorderLevel": 10
+    },
+    {
+      "id": "e24c326e-6d99-524d-8460-228d130832b0",
+      "sku": "SKU-010",
+      "name": "Product 10",
+      "categoryId": "74cfd841-4440-5e42-a390-10d9f21892a6",
+      "price": 325,
+      "cost": 195,
+      "stock": 50,
+      "reorderLevel": 10
+    },
+    {
+      "id": "9a3b84de-8ecc-5b9a-8320-904d92a655a6",
+      "sku": "SKU-011",
+      "name": "Product 11",
+      "categoryId": "90c69496-67e4-596d-a969-2b61481b491c",
+      "price": 350,
+      "cost": 210,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "0e55ed1d-5201-574d-944c-cd3dfd353f58",
+      "sku": "SKU-012",
+      "name": "Product 12",
+      "categoryId": "50b4c240-a50a-51f6-82aa-824537e1f08b",
+      "price": 375,
+      "cost": 225,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "6966f46a-c6b3-5296-89ec-90ac7a81d470",
+      "sku": "SKU-013",
+      "name": "Product 13",
+      "categoryId": "23913638-f80c-59c3-8c34-52122b7c509b",
+      "price": 400,
+      "cost": 240,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "0bb4146f-03b8-572f-877a-3fb90ddf039f",
+      "sku": "SKU-014",
+      "name": "Product 14",
+      "categoryId": "17b6ef5a-b496-59b9-a435-f337f111d485",
+      "price": 425,
+      "cost": 255,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "d7b11655-917b-5f35-9f82-ce486632bcfd",
+      "sku": "SKU-015",
+      "name": "Product 15",
+      "categoryId": "74cfd841-4440-5e42-a390-10d9f21892a6",
+      "price": 450,
+      "cost": 270,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "5ee0d935-7add-521f-a9d5-8e8d5c15200e",
+      "sku": "SKU-016",
+      "name": "Product 16",
+      "categoryId": "90c69496-67e4-596d-a969-2b61481b491c",
+      "price": 475,
+      "cost": 285,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "f6b96882-5e4c-51cc-a075-b1ae328dad57",
+      "sku": "SKU-017",
+      "name": "Product 17",
+      "categoryId": "50b4c240-a50a-51f6-82aa-824537e1f08b",
+      "price": 500,
+      "cost": 300,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "594a5503-cf85-5051-be54-e299be02773c",
+      "sku": "SKU-018",
+      "name": "Product 18",
+      "categoryId": "23913638-f80c-59c3-8c34-52122b7c509b",
+      "price": 525,
+      "cost": 315,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "0981eebf-4ee0-5c31-8743-bf04be57313b",
+      "sku": "SKU-019",
+      "name": "Product 19",
+      "categoryId": "17b6ef5a-b496-59b9-a435-f337f111d485",
+      "price": 550,
+      "cost": 330,
+      "stock": 0,
+      "reorderLevel": 10
+    },
+    {
+      "id": "cb633475-e226-54b8-b153-1f8913d9d382",
+      "sku": "SKU-020",
+      "name": "Product 20",
+      "categoryId": "74cfd841-4440-5e42-a390-10d9f21892a6",
+      "price": 575,
+      "cost": 345,
+      "stock": 0,
+      "reorderLevel": 10
+    }
+  ],
+  "inventoryTransactions": [
+    {
+      "id": "def9d1b5-dc86-4e41-8f0f-f91d66e537f5",
+      "productId": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+      "type": "stock-in",
+      "qty": 50,
+      "source": "112affd3-d0cd-48bf-9e70-bef49a615336",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "05549dbe-b723-4ef3-b0c6-8581ec5ec7cd",
+      "productId": "763ffb6a-7a0a-509c-be3a-aa0404d4351e",
+      "type": "stock-in",
+      "qty": 50,
+      "source": "112affd3-d0cd-48bf-9e70-bef49a615336",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "01a53a28-07ec-438e-811e-95c85cc9b708",
+      "productId": "2d64d2c9-e623-522d-af83-a22c73123571",
+      "type": "stock-in",
+      "qty": 100,
+      "source": "9a8acaa7-b411-4de3-b814-896e34bdf433",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "ee815224-7c8a-4fe2-b753-1454751da304",
+      "productId": "670ad7af-5ad5-5dfd-8866-6e37ccbac7ad",
+      "type": "stock-in",
+      "qty": 100,
+      "source": "9a8acaa7-b411-4de3-b814-896e34bdf433",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "cbf8867f-deaa-4030-8627-af1bb02f1485",
+      "productId": "b771298f-1840-5dca-ae42-5950fb99fc08",
+      "type": "stock-in",
+      "qty": 50,
+      "source": "5551ac16-9dbf-42b3-b0a6-07d76696ff58",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "e6f56591-e553-436a-a036-f21ffb8e7118",
+      "productId": "5dc75683-a68f-518f-8d99-67fbce8154f2",
+      "type": "stock-in",
+      "qty": 50,
+      "source": "5551ac16-9dbf-42b3-b0a6-07d76696ff58",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "bfd4828b-3915-43dc-b039-688399a57b49",
+      "productId": "d6006012-6714-5ea2-a04c-36d5787f478f",
+      "type": "stock-in",
+      "qty": 100,
+      "source": "e702bc30-2f4e-449b-8911-40826fbea270",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "73ae0ff6-869c-479d-9bfa-1a7fea964d10",
+      "productId": "59834d35-2eb1-56ef-a3e8-37786f32a976",
+      "type": "stock-in",
+      "qty": 100,
+      "source": "e702bc30-2f4e-449b-8911-40826fbea270",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "6d2858fb-da4e-47c1-8de0-325a6696fccd",
+      "productId": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+      "type": "stock-in",
+      "qty": 50,
+      "source": "c2bc280d-314e-4bdd-b5f0-8b782a9b70fb",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "a8837c9f-b786-440e-85d4-defa70a64dc5",
+      "productId": "e24c326e-6d99-524d-8460-228d130832b0",
+      "type": "stock-in",
+      "qty": 50,
+      "source": "c2bc280d-314e-4bdd-b5f0-8b782a9b70fb",
+      "note": "PO receipt",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "6f2653d9-1a21-4f3a-bd53-b691f37cdcc6",
+      "productId": "670ad7af-5ad5-5dfd-8866-6e37ccbac7ad",
+      "type": "in",
+      "qty": 8,
+      "source": "manual",
+      "note": "opening",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "67e22adc-2e7c-4944-81df-abeb576d22d1",
+      "productId": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+      "type": "stock-out",
+      "qty": -3,
+      "source": "ba1e8b00-2a67-4a0b-ac26-72a2652a5838",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "fdde00e3-8907-471d-98dd-a2ec3bd750a6",
+      "productId": "2d64d2c9-e623-522d-af83-a22c73123571",
+      "type": "stock-out",
+      "qty": -2,
+      "source": "50bf737f-412e-49ab-91a6-383e917b77ab",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "5d81622c-5867-46c8-8cfe-76c01c1f56b6",
+      "productId": "b771298f-1840-5dca-ae42-5950fb99fc08",
+      "type": "stock-out",
+      "qty": -4,
+      "source": "023ef1eb-02e4-4921-b4b4-86e36a7eacca",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "2bcc4406-27d2-4658-9e2c-24e945e9d9f7",
+      "productId": "d6006012-6714-5ea2-a04c-36d5787f478f",
+      "type": "stock-out",
+      "qty": -1,
+      "source": "b70c1e33-a8a8-4052-a458-b431388e4555",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "cec5f1ea-c7dd-49d0-881b-07cc9814cc03",
+      "productId": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+      "type": "stock-out",
+      "qty": -1,
+      "source": "7ae882cd-01f8-4a72-9335-50dd3e993923",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "b5bf9246-f242-4083-8176-d33e9b8f9c13",
+      "productId": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+      "type": "stock-out",
+      "qty": -5,
+      "source": "231d1222-3e59-4cca-956f-eb4eb3a57c30",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "2cf32526-8a02-4fdf-991f-65dadeb7e695",
+      "productId": "2d64d2c9-e623-522d-af83-a22c73123571",
+      "type": "stock-out",
+      "qty": -1,
+      "source": "d8754725-2ee9-4f86-8976-f42ec192e981",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "15618c83-5d67-4a33-b7d2-7b6004c6ed1e",
+      "productId": "b771298f-1840-5dca-ae42-5950fb99fc08",
+      "type": "stock-out",
+      "qty": -3,
+      "source": "350d245a-e11d-4303-bdaf-1fb6f8a05a14",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "46170d69-9d13-4966-8595-a5ef01a2682a",
+      "productId": "d6006012-6714-5ea2-a04c-36d5787f478f",
+      "type": "stock-out",
+      "qty": -5,
+      "source": "efdb2e28-5490-4ba4-b658-362d713dfc49",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    },
+    {
+      "id": "9e085398-2e30-4f21-afb9-7229f5a1b6f7",
+      "productId": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+      "type": "stock-out",
+      "qty": -1,
+      "source": "1f8dd89a-8dab-447b-9701-22885c54dd50",
+      "note": "",
+      "at": "2026-10-28T08:27:20+00:00",
+      "by": "seed"
+    }
+  ],
+  "salesOrders": [
+    {
+      "customerId": "e0c1a8d8-c699-5766-87fd-5e95941205b4",
+      "items": [
+        {
+          "productId": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+          "qty": 3,
+          "price": 100.0,
+          "discount": 5.0,
+          "lineTotal": 285.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 285.0,
+      "tax": 34.2,
+      "total": 319.2,
+      "status": "confirmed",
+      "id": "ba1e8b00-2a67-4a0b-ac26-72a2652a5838",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "6edc2ab4-5c29-5f8f-a6d8-c59607a2b997",
+      "items": [
+        {
+          "productId": "2d64d2c9-e623-522d-af83-a22c73123571",
+          "qty": 2,
+          "price": 150.0,
+          "discount": 5.0,
+          "lineTotal": 285.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 285.0,
+      "tax": 34.2,
+      "total": 319.2,
+      "status": "confirmed",
+      "id": "50bf737f-412e-49ab-91a6-383e917b77ab",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "045d08f0-3d9b-5d69-bdd1-b30346e65e95",
+      "items": [
+        {
+          "productId": "b771298f-1840-5dca-ae42-5950fb99fc08",
+          "qty": 4,
+          "price": 200.0,
+          "discount": 5.0,
+          "lineTotal": 760.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 760.0,
+      "tax": 91.2,
+      "total": 851.2,
+      "status": "confirmed",
+      "id": "023ef1eb-02e4-4921-b4b4-86e36a7eacca",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "9883fe54-8f88-531a-8d19-4e6444bc20b3",
+      "items": [
+        {
+          "productId": "d6006012-6714-5ea2-a04c-36d5787f478f",
+          "qty": 1,
+          "price": 250.0,
+          "discount": 5.0,
+          "lineTotal": 237.5,
+          "received": 0
+        }
+      ],
+      "subtotal": 237.5,
+      "tax": 28.5,
+      "total": 266.0,
+      "status": "confirmed",
+      "id": "b70c1e33-a8a8-4052-a458-b431388e4555",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "a0230c03-d251-50c3-a0ef-bd3d7ba979b0",
+      "items": [
+        {
+          "productId": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+          "qty": 1,
+          "price": 300.0,
+          "discount": 5.0,
+          "lineTotal": 285.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 285.0,
+      "tax": 34.2,
+      "total": 319.2,
+      "status": "confirmed",
+      "id": "7ae882cd-01f8-4a72-9335-50dd3e993923",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "d823229c-0481-54b3-ae94-3348c46a005b",
+      "items": [
+        {
+          "productId": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+          "qty": 5,
+          "price": 100.0,
+          "discount": 5.0,
+          "lineTotal": 475.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 475.0,
+      "tax": 57.0,
+      "total": 532.0,
+      "status": "confirmed",
+      "id": "231d1222-3e59-4cca-956f-eb4eb3a57c30",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "5995b2ae-64c0-5356-ba80-64784c2b70cc",
+      "items": [
+        {
+          "productId": "2d64d2c9-e623-522d-af83-a22c73123571",
+          "qty": 1,
+          "price": 150.0,
+          "discount": 5.0,
+          "lineTotal": 142.5,
+          "received": 0
+        }
+      ],
+      "subtotal": 142.5,
+      "tax": 17.1,
+      "total": 159.6,
+      "status": "confirmed",
+      "id": "d8754725-2ee9-4f86-8976-f42ec192e981",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "6117bc08-a680-50b5-8f08-b6b9fb3a5dbe",
+      "items": [
+        {
+          "productId": "b771298f-1840-5dca-ae42-5950fb99fc08",
+          "qty": 3,
+          "price": 200.0,
+          "discount": 5.0,
+          "lineTotal": 570.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 570.0,
+      "tax": 68.4,
+      "total": 638.4,
+      "status": "confirmed",
+      "id": "350d245a-e11d-4303-bdaf-1fb6f8a05a14",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "f12cc8f3-c5c1-5cf0-ab5f-92b86ef8df7c",
+      "items": [
+        {
+          "productId": "d6006012-6714-5ea2-a04c-36d5787f478f",
+          "qty": 5,
+          "price": 250.0,
+          "discount": 5.0,
+          "lineTotal": 1187.5,
+          "received": 0
+        }
+      ],
+      "subtotal": 1187.5,
+      "tax": 142.5,
+      "total": 1330.0,
+      "status": "confirmed",
+      "id": "efdb2e28-5490-4ba4-b658-362d713dfc49",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "9d8cf0e5-c6ae-5926-ac35-67a23d228bff",
+      "items": [
+        {
+          "productId": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+          "qty": 1,
+          "price": 300.0,
+          "discount": 5.0,
+          "lineTotal": 285.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 285.0,
+      "tax": 34.2,
+      "total": 319.2,
+      "status": "confirmed",
+      "id": "1f8dd89a-8dab-447b-9701-22885c54dd50",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "ddc3b5c2-41a9-5de4-a393-f0d7c3ab04d7",
+      "items": [
+        {
+          "productId": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+          "qty": 5,
+          "price": 100.0,
+          "discount": 5.0,
+          "lineTotal": 475.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 475.0,
+      "tax": 57.0,
+      "total": 532.0,
+      "status": "draft",
+      "id": "5556e83c-36ba-44d9-a4f8-ce19412ef293",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "c3f3c3b4-e191-510d-98a0-4b3a49a741d1",
+      "items": [
+        {
+          "productId": "2d64d2c9-e623-522d-af83-a22c73123571",
+          "qty": 2,
+          "price": 150.0,
+          "discount": 5.0,
+          "lineTotal": 285.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 285.0,
+      "tax": 34.2,
+      "total": 319.2,
+      "status": "draft",
+      "id": "ac8d2186-cd02-4611-bd10-f76e5c67d646",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "7859599c-be47-5190-b9da-3eaf3e3db44b",
+      "items": [
+        {
+          "productId": "b771298f-1840-5dca-ae42-5950fb99fc08",
+          "qty": 1,
+          "price": 200.0,
+          "discount": 5.0,
+          "lineTotal": 190.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 190.0,
+      "tax": 22.8,
+      "total": 212.8,
+      "status": "draft",
+      "id": "508e8b26-fafa-4405-8bfc-839512f3c604",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "e070eae0-7148-5334-8c61-1c28b85f5a6c",
+      "items": [
+        {
+          "productId": "d6006012-6714-5ea2-a04c-36d5787f478f",
+          "qty": 1,
+          "price": 250.0,
+          "discount": 5.0,
+          "lineTotal": 237.5,
+          "received": 0
+        }
+      ],
+      "subtotal": 237.5,
+      "tax": 28.5,
+      "total": 266.0,
+      "status": "draft",
+      "id": "7b510d41-5df0-481e-bcb7-719708df237f",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "customerId": "01f52396-1088-55d5-901a-2440b28076f2",
+      "items": [
+        {
+          "productId": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+          "qty": 4,
+          "price": 300.0,
+          "discount": 5.0,
+          "lineTotal": 1140.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 1140.0,
+      "tax": 136.8,
+      "total": 1276.8,
+      "status": "draft",
+      "id": "217a5f8d-ebb2-440f-bd7f-8a8996f20963",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "supplierId": "36acf8b4-72b3-5286-94c5-8bed51d34742",
+      "items": [
+        {
+          "productId": "fb687bb7-2759-54e1-b675-a2d19c9fdf1f",
+          "qty": 100,
+          "price": 60.0,
+          "discount": 0.0,
+          "lineTotal": 6000.0,
+          "received": 50
+        },
+        {
+          "productId": "763ffb6a-7a0a-509c-be3a-aa0404d4351e",
+          "qty": 100,
+          "price": 75.0,
+          "discount": 0.0,
+          "lineTotal": 7500.0,
+          "received": 50
+        }
+      ],
+      "subtotal": 13500.0,
+      "tax": 1620.0,
+      "total": 15120.0,
+      "status": "partial",
+      "id": "112affd3-d0cd-48bf-9e70-bef49a615336",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "dd994c40-116e-59e2-9e0c-bf2ca67b524e",
+      "items": [
+        {
+          "productId": "2d64d2c9-e623-522d-af83-a22c73123571",
+          "qty": 100,
+          "price": 90.0,
+          "discount": 0.0,
+          "lineTotal": 9000.0,
+          "received": 100
+        },
+        {
+          "productId": "670ad7af-5ad5-5dfd-8866-6e37ccbac7ad",
+          "qty": 100,
+          "price": 105.0,
+          "discount": 0.0,
+          "lineTotal": 10500.0,
+          "received": 100
+        }
+      ],
+      "subtotal": 19500.0,
+      "tax": 2340.0,
+      "total": 21840.0,
+      "status": "received",
+      "id": "9a8acaa7-b411-4de3-b814-896e34bdf433",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "213b835c-2319-56cc-b71d-0fc6bd6f5412",
+      "items": [
+        {
+          "productId": "b771298f-1840-5dca-ae42-5950fb99fc08",
+          "qty": 100,
+          "price": 120.0,
+          "discount": 0.0,
+          "lineTotal": 12000.0,
+          "received": 50
+        },
+        {
+          "productId": "5dc75683-a68f-518f-8d99-67fbce8154f2",
+          "qty": 100,
+          "price": 135.0,
+          "discount": 0.0,
+          "lineTotal": 13500.0,
+          "received": 50
+        }
+      ],
+      "subtotal": 25500.0,
+      "tax": 3060.0,
+      "total": 28560.0,
+      "status": "partial",
+      "id": "5551ac16-9dbf-42b3-b0a6-07d76696ff58",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "7e746add-bb1e-5925-bf60-9b8d2cc91e6e",
+      "items": [
+        {
+          "productId": "d6006012-6714-5ea2-a04c-36d5787f478f",
+          "qty": 100,
+          "price": 150.0,
+          "discount": 0.0,
+          "lineTotal": 15000.0,
+          "received": 100
+        },
+        {
+          "productId": "59834d35-2eb1-56ef-a3e8-37786f32a976",
+          "qty": 100,
+          "price": 165.0,
+          "discount": 0.0,
+          "lineTotal": 16500.0,
+          "received": 100
+        }
+      ],
+      "subtotal": 31500.0,
+      "tax": 3780.0,
+      "total": 35280.0,
+      "status": "received",
+      "id": "e702bc30-2f4e-449b-8911-40826fbea270",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "72121ceb-6d14-504c-9387-413590627a0d",
+      "items": [
+        {
+          "productId": "51fac2b4-4e05-5e93-8426-36890faebdb9",
+          "qty": 100,
+          "price": 180.0,
+          "discount": 0.0,
+          "lineTotal": 18000.0,
+          "received": 50
+        },
+        {
+          "productId": "e24c326e-6d99-524d-8460-228d130832b0",
+          "qty": 100,
+          "price": 195.0,
+          "discount": 0.0,
+          "lineTotal": 19500.0,
+          "received": 50
+        }
+      ],
+      "subtotal": 37500.0,
+      "tax": 4500.0,
+      "total": 42000.0,
+      "status": "partial",
+      "id": "c2bc280d-314e-4bdd-b5f0-8b782a9b70fb",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "32aaf3ce-c0d1-5cb2-9ba3-c2a68837246d",
+      "items": [
+        {
+          "productId": "9a3b84de-8ecc-5b9a-8320-904d92a655a6",
+          "qty": 100,
+          "price": 210.0,
+          "discount": 0.0,
+          "lineTotal": 21000.0,
+          "received": 0
+        },
+        {
+          "productId": "0e55ed1d-5201-574d-944c-cd3dfd353f58",
+          "qty": 100,
+          "price": 225.0,
+          "discount": 0.0,
+          "lineTotal": 22500.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 43500.0,
+      "tax": 5220.0,
+      "total": 48720.0,
+      "status": "approved",
+      "id": "f0618a92-2b23-4b62-b4dc-7f41d9180b1f",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "5353c740-a194-5229-95bb-ae46e2231798",
+      "items": [
+        {
+          "productId": "6966f46a-c6b3-5296-89ec-90ac7a81d470",
+          "qty": 100,
+          "price": 240.0,
+          "discount": 0.0,
+          "lineTotal": 24000.0,
+          "received": 0
+        },
+        {
+          "productId": "0bb4146f-03b8-572f-877a-3fb90ddf039f",
+          "qty": 100,
+          "price": 255.0,
+          "discount": 0.0,
+          "lineTotal": 25500.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 49500.0,
+      "tax": 5940.0,
+      "total": 55440.0,
+      "status": "approved",
+      "id": "ae1548ba-df34-4019-8381-02d94020f639",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "85cb1bc3-7cd9-588f-a7ad-95aa8d16b6c8",
+      "items": [
+        {
+          "productId": "d7b11655-917b-5f35-9f82-ce486632bcfd",
+          "qty": 100,
+          "price": 270.0,
+          "discount": 0.0,
+          "lineTotal": 27000.0,
+          "received": 0
+        },
+        {
+          "productId": "5ee0d935-7add-521f-a9d5-8e8d5c15200e",
+          "qty": 100,
+          "price": 285.0,
+          "discount": 0.0,
+          "lineTotal": 28500.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 55500.0,
+      "tax": 6660.0,
+      "total": 62160.0,
+      "status": "draft",
+      "id": "3ffb1ffc-408e-4e66-be9e-6122e74c99e8",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "36acf8b4-72b3-5286-94c5-8bed51d34742",
+      "items": [
+        {
+          "productId": "f6b96882-5e4c-51cc-a075-b1ae328dad57",
+          "qty": 100,
+          "price": 300.0,
+          "discount": 0.0,
+          "lineTotal": 30000.0,
+          "received": 0
+        },
+        {
+          "productId": "594a5503-cf85-5051-be54-e299be02773c",
+          "qty": 100,
+          "price": 315.0,
+          "discount": 0.0,
+          "lineTotal": 31500.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 61500.0,
+      "tax": 7380.0,
+      "total": 68880.0,
+      "status": "draft",
+      "id": "8bc11a94-e80f-458e-85da-518d6e7dffd6",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "supplierId": "dd994c40-116e-59e2-9e0c-bf2ca67b524e",
+      "items": [
+        {
+          "productId": "0981eebf-4ee0-5c31-8743-bf04be57313b",
+          "qty": 100,
+          "price": 330.0,
+          "discount": 0.0,
+          "lineTotal": 33000.0,
+          "received": 0
+        },
+        {
+          "productId": "cb633475-e226-54b8-b153-1f8913d9d382",
+          "qty": 100,
+          "price": 345.0,
+          "discount": 0.0,
+          "lineTotal": 34500.0,
+          "received": 0
+        }
+      ],
+      "subtotal": 67500.0,
+      "tax": 8100.0,
+      "total": 75600.0,
+      "status": "draft",
+      "id": "af64f183-bb34-45fa-b236-81d6d001dd3a",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "646dd872-3e25-4870-85d3-dc86b0a72fac",
+      "number": "INV-0001",
+      "salesOrderId": "ba1e8b00-2a67-4a0b-ac26-72a2652a5838",
+      "customerId": "e0c1a8d8-c699-5766-87fd-5e95941205b4",
+      "total": 319.2,
+      "paid": 159.6,
+      "balance": 159.6,
+      "status": "partial",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "49381184-1050-4218-a476-8e83a5a98bf6",
+      "number": "INV-0002",
+      "salesOrderId": "50bf737f-412e-49ab-91a6-383e917b77ab",
+      "customerId": "6edc2ab4-5c29-5f8f-a6d8-c59607a2b997",
+      "total": 319.2,
+      "paid": 319.2,
+      "balance": 0.0,
+      "status": "paid",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "40e530c0-1f35-48a8-91cd-d9bafe19c04d",
+      "number": "INV-0003",
+      "salesOrderId": "023ef1eb-02e4-4921-b4b4-86e36a7eacca",
+      "customerId": "045d08f0-3d9b-5d69-bdd1-b30346e65e95",
+      "total": 851.2,
+      "paid": 425.6,
+      "balance": 425.6,
+      "status": "partial",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "7700d1cc-3bc7-45bc-bd38-5e95fec690b1",
+      "number": "INV-0004",
+      "salesOrderId": "b70c1e33-a8a8-4052-a458-b431388e4555",
+      "customerId": "9883fe54-8f88-531a-8d19-4e6444bc20b3",
+      "total": 266.0,
+      "paid": 266.0,
+      "balance": 0.0,
+      "status": "paid",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "e354039a-fcc9-41ab-b3c0-b4e9166352ec",
+      "number": "INV-0005",
+      "salesOrderId": "7ae882cd-01f8-4a72-9335-50dd3e993923",
+      "customerId": "a0230c03-d251-50c3-a0ef-bd3d7ba979b0",
+      "total": 319.2,
+      "paid": 159.6,
+      "balance": 159.6,
+      "status": "partial",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "621610a4-5187-4107-83c9-37ce77c14fd2",
+      "number": "INV-0006",
+      "salesOrderId": "231d1222-3e59-4cca-956f-eb4eb3a57c30",
+      "customerId": "d823229c-0481-54b3-ae94-3348c46a005b",
+      "total": 532.0,
+      "paid": 532.0,
+      "balance": 0.0,
+      "status": "paid",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "2ccc02dc-24ae-4c80-b144-bdf0c66c6b6b",
+      "number": "INV-0007",
+      "salesOrderId": "d8754725-2ee9-4f86-8976-f42ec192e981",
+      "customerId": "5995b2ae-64c0-5356-ba80-64784c2b70cc",
+      "total": 159.6,
+      "paid": 0.0,
+      "balance": 159.6,
+      "status": "unpaid",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "e62b97dc-767a-4235-8d87-565601a8e92d",
+      "number": "INV-0008",
+      "salesOrderId": "350d245a-e11d-4303-bdaf-1fb6f8a05a14",
+      "customerId": "6117bc08-a680-50b5-8f08-b6b9fb3a5dbe",
+      "total": 638.4,
+      "paid": 0.0,
+      "balance": 638.4,
+      "status": "unpaid",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "a3a099dc-cfe9-4a09-8388-03d387516fdd",
+      "number": "INV-0009",
+      "salesOrderId": "efdb2e28-5490-4ba4-b658-362d713dfc49",
+      "customerId": "f12cc8f3-c5c1-5cf0-ab5f-92b86ef8df7c",
+      "total": 1330.0,
+      "paid": 0.0,
+      "balance": 1330.0,
+      "status": "unpaid",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "1a9249ae-c577-45bc-b0bc-0b768a202506",
+      "number": "INV-0010",
+      "salesOrderId": "1f8dd89a-8dab-447b-9701-22885c54dd50",
+      "customerId": "9d8cf0e5-c6ae-5926-ac35-67a23d228bff",
+      "total": 319.2,
+      "paid": 0.0,
+      "balance": 319.2,
+      "status": "unpaid",
+      "issueDate": "2026-10-28",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    }
+  ],
+  "payments": [
+    {
+      "id": "11473987-aa68-4cdc-8d29-f813df80ebec",
+      "invoiceId": "646dd872-3e25-4870-85d3-dc86b0a72fac",
+      "amount": 159.6,
+      "method": "cash",
+      "date": "2026-10-28",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "b88de973-9653-4ce1-a795-928da0a765c8",
+      "invoiceId": "49381184-1050-4218-a476-8e83a5a98bf6",
+      "amount": 319.2,
+      "method": "cash",
+      "date": "2026-10-28",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "8dd75cf5-e138-42f8-9b48-028f9c0c8c27",
+      "invoiceId": "40e530c0-1f35-48a8-91cd-d9bafe19c04d",
+      "amount": 425.6,
+      "method": "cash",
+      "date": "2026-10-28",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "57152c2e-7508-4e15-8ca2-ebbedbdd52ca",
+      "invoiceId": "7700d1cc-3bc7-45bc-bd38-5e95fec690b1",
+      "amount": 266.0,
+      "method": "cash",
+      "date": "2026-10-28",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "cbbc5578-23f1-4017-8ebd-abf8638bc9ec",
+      "invoiceId": "e354039a-fcc9-41ab-b3c0-b4e9166352ec",
+      "amount": 159.6,
+      "method": "cash",
+      "date": "2026-10-28",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    },
+    {
+      "id": "1148d255-e951-483e-bfa3-178f810799f5",
+      "invoiceId": "621610a4-5187-4107-83c9-37ce77c14fd2",
+      "amount": 532.0,
+      "method": "cash",
+      "date": "2026-10-28",
+      "createdAt": "2026-10-28T08:27:20+00:00"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "efac0a7d-17b4-5371-baf3-9b1bff400ba3",
+      "description": "Expense 1",
+      "amount": 500,
+      "date": "2026-08-05"
+    },
+    {
+      "id": "81d10532-e965-5410-995d-c525ecdeb1e3",
+      "description": "Expense 2",
+      "amount": 650,
+      "date": "2026-09-06"
+    },
+    {
+      "id": "15883a2e-4f25-527b-9b4e-3345eb4dea33",
+      "description": "Expense 3",
+      "amount": 800,
+      "date": "2026-10-07"
+    },
+    {
+      "id": "703d2e44-d90c-5c19-83b8-8c300a3eb4b0",
+      "description": "Expense 4",
+      "amount": 950,
+      "date": "2026-08-08"
+    },
+    {
+      "id": "6d1146bc-64d8-5db0-9920-ae41202c6c06",
+      "description": "Expense 5",
+      "amount": 1100,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "dd1d7e7c-db4f-5b53-80c1-2625d1b56b13",
+      "description": "Expense 6",
+      "amount": 1250,
+      "date": "2026-10-10"
+    },
+    {
+      "id": "e39a2b0f-ad76-5bc6-8fd8-e28ec7bfa1ed",
+      "description": "Expense 7",
+      "amount": 1400,
+      "date": "2026-08-11"
+    },
+    {
+      "id": "b0042f5b-9afd-5191-a3cc-cbbad209fbd9",
+      "description": "Expense 8",
+      "amount": 1550,
+      "date": "2026-09-12"
+    },
+    {
+      "id": "72aea568-c1ce-59aa-93f3-136c650508c6",
+      "description": "Expense 9",
+      "amount": 1700,
+      "date": "2026-10-13"
+    },
+    {
+      "id": "31d5aa45-51c4-53e0-b14a-7c349feb14f1",
+      "description": "Expense 10",
+      "amount": 1850,
+      "date": "2026-08-14"
+    },
+    {
+      "id": "41d3fbc0-c569-51e3-8c81-371b809d208b",
+      "description": "Expense 11",
+      "amount": 2000,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "0f0271ae-98f2-5232-90ff-17a2f3eec81d",
+      "description": "Expense 12",
+      "amount": 2150,
+      "date": "2026-10-16"
+    },
+    {
+      "id": "f3c4cbdc-4711-59d7-9d92-b58c623dd74a",
+      "description": "Expense 13",
+      "amount": 2300,
+      "date": "2026-08-17"
+    },
+    {
+      "id": "538f71b4-c3f8-557c-a55f-c72c63d4c34b",
+      "description": "Expense 14",
+      "amount": 2450,
+      "date": "2026-09-18"
+    },
+    {
+      "id": "e059fdf0-3e61-5c52-a8cb-f110cdca6139",
+      "description": "Expense 15",
+      "amount": 2600,
+      "date": "2026-10-19"
+    },
+    {
+      "id": "3daffb61-e15d-59cb-8805-03df8a70c9e6",
+      "description": "Expense 16",
+      "amount": 2750,
+      "date": "2026-08-20"
+    },
+    {
+      "id": "c7a13619-8f67-5b40-809b-f05ddbda1254",
+      "description": "Expense 17",
+      "amount": 2900,
+      "date": "2026-09-21"
+    },
+    {
+      "id": "5657c332-43e7-5f93-bc0b-353c1b4a0c31",
+      "description": "Expense 18",
+      "amount": 3050,
+      "date": "2026-10-22"
+    },
+    {
+      "id": "86cdfb36-0850-5145-87d1-fa7c9db0dc52",
+      "description": "Expense 19",
+      "amount": 3200,
+      "date": "2026-08-23"
+    },
+    {
+      "id": "e4778997-6b85-5154-b9e7-340159627742",
+      "description": "Expense 20",
+      "amount": 3350,
+      "date": "2026-09-24"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "768c04f6-e39a-5408-80de-bb86a438f9d1",
+      "message": "Welcome to NexusERP",
+      "read": false
+    },
+    {
+      "id": "043f5994-b337-50b6-8f98-1c62512c6a07",
+      "message": "Review pending approvals",
+      "read": false
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "61c0e71a-dcb1-42d9-9cf2-3489829d8cc9",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "112affd3-d0cd-48bf-9e70-bef49a615336"
+    },
+    {
+      "id": "5659de12-6bbb-4073-9a06-0e17b4fa1f42",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "approve purchaseOrders",
+      "ref": "112affd3-d0cd-48bf-9e70-bef49a615336"
+    },
+    {
+      "id": "3b69507d-6fa6-46cb-9309-35b899c9c476",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "receive purchaseOrders",
+      "ref": "112affd3-d0cd-48bf-9e70-bef49a615336"
+    },
+    {
+      "id": "8e4ded78-a0bb-494b-8fc8-dcb9bcffc317",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "9a8acaa7-b411-4de3-b814-896e34bdf433"
+    },
+    {
+      "id": "62918c67-aaf1-4eac-bbfa-00873cd78b74",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "approve purchaseOrders",
+      "ref": "9a8acaa7-b411-4de3-b814-896e34bdf433"
+    },
+    {
+      "id": "e1b25964-2a87-4e64-93ce-b2a02cf478b8",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "receive purchaseOrders",
+      "ref": "9a8acaa7-b411-4de3-b814-896e34bdf433"
+    },
+    {
+      "id": "4457a39e-dce6-4936-81b8-b4028c7832ee",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "5551ac16-9dbf-42b3-b0a6-07d76696ff58"
+    },
+    {
+      "id": "efddd9ad-cb21-43aa-914f-e681806c8c52",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "approve purchaseOrders",
+      "ref": "5551ac16-9dbf-42b3-b0a6-07d76696ff58"
+    },
+    {
+      "id": "1f39c93c-12fa-4552-bf3e-d62df27e9d81",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "receive purchaseOrders",
+      "ref": "5551ac16-9dbf-42b3-b0a6-07d76696ff58"
+    },
+    {
+      "id": "e1573e65-b4de-4df0-8d30-34cf58b1ba38",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "e702bc30-2f4e-449b-8911-40826fbea270"
+    },
+    {
+      "id": "2eec338c-16ab-4fb3-a296-bc1cb9f5295b",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "approve purchaseOrders",
+      "ref": "e702bc30-2f4e-449b-8911-40826fbea270"
+    },
+    {
+      "id": "467946b5-5fa0-49c9-9284-daba086ae054",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "receive purchaseOrders",
+      "ref": "e702bc30-2f4e-449b-8911-40826fbea270"
+    },
+    {
+      "id": "1c63cf84-6f9b-485b-aed7-567688e39e2b",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "c2bc280d-314e-4bdd-b5f0-8b782a9b70fb"
+    },
+    {
+      "id": "c1803914-a638-4cd7-b8c7-5645b359f215",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "approve purchaseOrders",
+      "ref": "c2bc280d-314e-4bdd-b5f0-8b782a9b70fb"
+    },
+    {
+      "id": "a61e4976-86dd-4d33-b541-0e21ea5dc5f6",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "receive purchaseOrders",
+      "ref": "c2bc280d-314e-4bdd-b5f0-8b782a9b70fb"
+    },
+    {
+      "id": "65b8af22-ae9b-4a59-9621-7b6111ca6370",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "f0618a92-2b23-4b62-b4dc-7f41d9180b1f"
+    },
+    {
+      "id": "3d048e70-cec9-4438-a596-4dbda5cc38f4",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "approve purchaseOrders",
+      "ref": "f0618a92-2b23-4b62-b4dc-7f41d9180b1f"
+    },
+    {
+      "id": "066bb49e-8509-4117-b4e7-9b7c9a16cb03",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "ae1548ba-df34-4019-8381-02d94020f639"
+    },
+    {
+      "id": "b96afcb7-146b-4feb-91d7-d97ad5b4c9b6",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "approve purchaseOrders",
+      "ref": "ae1548ba-df34-4019-8381-02d94020f639"
+    },
+    {
+      "id": "95f148c5-4205-408a-baff-9e1724ff2f64",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "3ffb1ffc-408e-4e66-be9e-6122e74c99e8"
+    },
+    {
+      "id": "e109bae2-45a6-42b4-a9b8-585106bcc7e2",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "8bc11a94-e80f-458e-85da-518d6e7dffd6"
+    },
+    {
+      "id": "7858e9ef-6887-4ade-8fe7-e0c20c9282fc",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created purchaseOrders",
+      "ref": "af64f183-bb34-45fa-b236-81d6d001dd3a"
+    },
+    {
+      "id": "9124858c-1767-4e6a-8758-396b57dd1a0b",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "stock products",
+      "ref": "670ad7af-5ad5-5dfd-8866-6e37ccbac7ad"
+    },
+    {
+      "id": "1eef2840-9c73-462c-9f2e-fdbb8767e56c",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "ba1e8b00-2a67-4a0b-ac26-72a2652a5838"
+    },
+    {
+      "id": "b038f41e-f46d-4039-932a-aea9a92df9c7",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "50bf737f-412e-49ab-91a6-383e917b77ab"
+    },
+    {
+      "id": "e7296bab-f8c2-4a5c-bfea-3502187b1222",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "023ef1eb-02e4-4921-b4b4-86e36a7eacca"
+    },
+    {
+      "id": "3e49d4a6-7389-4ec9-aa5f-2c5911c3ea29",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "b70c1e33-a8a8-4052-a458-b431388e4555"
+    },
+    {
+      "id": "bbf38a9e-3322-4bf2-9769-16ee03184115",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "7ae882cd-01f8-4a72-9335-50dd3e993923"
+    },
+    {
+      "id": "8a2f0ece-cca7-473e-88a4-83229a742ce1",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "231d1222-3e59-4cca-956f-eb4eb3a57c30"
+    },
+    {
+      "id": "c1d85b7f-8aba-4704-9e65-e7bae5e5e6be",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "d8754725-2ee9-4f86-8976-f42ec192e981"
+    },
+    {
+      "id": "7aad1ae9-4358-4181-a69a-5a2db9661d31",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "350d245a-e11d-4303-bdaf-1fb6f8a05a14"
+    },
+    {
+      "id": "ae8f3699-c46b-41e9-97bb-2924f8221e14",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "efdb2e28-5490-4ba4-b658-362d713dfc49"
+    },
+    {
+      "id": "210092ca-5c68-48f2-9ff9-299812cb26d4",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "1f8dd89a-8dab-447b-9701-22885c54dd50"
+    },
+    {
+      "id": "b843f47f-3b55-4383-9a30-afe21253f7d9",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "5556e83c-36ba-44d9-a4f8-ce19412ef293"
+    },
+    {
+      "id": "a268a231-c841-4689-a543-d1d4bef2af5d",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "ac8d2186-cd02-4611-bd10-f76e5c67d646"
+    },
+    {
+      "id": "6752e4e1-8465-422c-862e-253242f6c216",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "508e8b26-fafa-4405-8bfc-839512f3c604"
+    },
+    {
+      "id": "31e4f080-cf37-4ae8-9313-4cd9b762b548",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "7b510d41-5df0-481e-bcb7-719708df237f"
+    },
+    {
+      "id": "2b26a4d1-4a1d-442b-ba23-da1f66e48409",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "created salesOrders",
+      "ref": "217a5f8d-ebb2-440f-bd7f-8a8996f20963"
+    },
+    {
+      "id": "f18fac74-8aa2-43fe-b5a9-743f9e9ac901",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "ba1e8b00-2a67-4a0b-ac26-72a2652a5838"
+    },
+    {
+      "id": "176d597a-121d-4b31-bc31-98f9f0415b95",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "50bf737f-412e-49ab-91a6-383e917b77ab"
+    },
+    {
+      "id": "3cc87f44-ae13-45c1-b58e-8b1936deade5",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "023ef1eb-02e4-4921-b4b4-86e36a7eacca"
+    },
+    {
+      "id": "bec0b14c-bcf5-43c3-a094-54e7e81fb4a1",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "b70c1e33-a8a8-4052-a458-b431388e4555"
+    },
+    {
+      "id": "9460708d-e744-411b-850a-8c7f3a203ac8",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "7ae882cd-01f8-4a72-9335-50dd3e993923"
+    },
+    {
+      "id": "e3a44836-e8e2-4830-bd8a-3970e4dee662",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "231d1222-3e59-4cca-956f-eb4eb3a57c30"
+    },
+    {
+      "id": "04692be1-99ae-4bb6-bf41-a8fec6f7b8b2",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "d8754725-2ee9-4f86-8976-f42ec192e981"
+    },
+    {
+      "id": "2825dcb1-fc5f-49a0-b488-fc1cadee4128",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "350d245a-e11d-4303-bdaf-1fb6f8a05a14"
+    },
+    {
+      "id": "b6ba64ea-3873-49df-9df4-3aca74af5b87",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "efdb2e28-5490-4ba4-b658-362d713dfc49"
+    },
+    {
+      "id": "7a9d41e0-2a37-4fe8-b3cb-f14b63e876f8",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "confirm salesOrders",
+      "ref": "1f8dd89a-8dab-447b-9701-22885c54dd50"
+    },
+    {
+      "id": "09dca84e-30cb-4798-9224-74bf9dfe9136",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "pay invoices",
+      "ref": "646dd872-3e25-4870-85d3-dc86b0a72fac"
+    },
+    {
+      "id": "8916b452-5365-4198-990d-a6f327ace81e",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "pay invoices",
+      "ref": "49381184-1050-4218-a476-8e83a5a98bf6"
+    },
+    {
+      "id": "f24981d6-0123-4790-a0b9-24b1103fb625",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "pay invoices",
+      "ref": "40e530c0-1f35-48a8-91cd-d9bafe19c04d"
+    },
+    {
+      "id": "8468f619-0632-4fd5-be80-8f8f5c274902",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "pay invoices",
+      "ref": "7700d1cc-3bc7-45bc-bd38-5e95fec690b1"
+    },
+    {
+      "id": "21a95e23-6f28-457b-8650-75b8cdbca000",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "pay invoices",
+      "ref": "e354039a-fcc9-41ab-b3c0-b4e9166352ec"
+    },
+    {
+      "id": "e135e59e-27b8-4f8f-900d-a2c703005e7a",
+      "at": "2026-10-28T08:27:20+00:00",
+      "user": "seed",
+      "action": "pay invoices",
+      "ref": "621610a4-5187-4107-83c9-37ce77c14fd2"
+    }
+  ],
+  "settings": {
+    "companyName": "NexusERP",
+    "currency": "PHP",
+    "dateFormat": "MMM dd, yyyy"
+  }
+}

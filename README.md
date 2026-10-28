@@ -1,0 +1,7 @@
+# NexusERP (React+Vite / Django REST / JSON file store)
+**Local (PowerShell):** `npm install; npm --prefix frontend install; python -m venv .venv; .\.venv\Scripts\Activate.ps1; pip install -r backend/requirements.txt; copy backend\.env.example backend\.env; npm run seed; npm run dev` → http://localhost:5173
+**Demo logins** (dev only, password `Demo#1234`): admin@, hr@, finance@, sales@, inventory@ `nexus.test`
+**Tests:** `npm test`. Run Django with ONE worker: the write lock is per-process and JSON is not a real database.
+**Vercel:** import the repo, set env `DJANGO_SECRET_KEY` (and `DJANGO_DEBUG=0`). Vercel's filesystem is read-only except `/tmp`, so the app copies `seed.json` to `/tmp/db.json` per instance: **writes are ephemeral, not shared across instances, and reset on cold start.** It's a demo; use Postgres/KV for real persistence.
+**API:** `/api/<collection>` (GET list ?q&page&limit&sort&field=value, POST), `/api/<collection>/<id>` (GET/PUT/PATCH/DELETE), actions `POST /api/<col>/<id>/<action>`: salesOrders confirm|cancel; purchaseOrders approve|receive|cancel; invoices pay; leaveRequests approve|reject; products stock. Collections are camelCase as in db.json.
+**Rules:** stock deducted on sales confirm, restored on cancel (blocked if paid); PO receive is capped by remaining qty (idempotent); payments > balance rejected, cancelled invoices unpayable; invoice auto-created on confirm; cash vs invoiced shown separately.

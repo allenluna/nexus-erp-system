@@ -1,0 +1,5 @@
+{"name":"nexuserp","private":true,"scripts":{
+"dev":"concurrently -n web,api \"npm:dev:frontend\" \"npm:dev:backend\"",
+"dev:frontend":"npm --prefix frontend run dev","dev:backend":"python backend/manage.py runserver 8000 --noreload",
+"build":"npm --prefix frontend run build","seed":"python backend/scripts/seed_database.py","db:reset":"python backend/scripts/reset_database.py",
+"test":"python backend/manage.py test tests"},"devDependencies":{"concurrently":"^9.0.0"}}
