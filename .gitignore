@@ -6,3 +6,4 @@ backend/.env
 backend/data/db.json
 .vercel/
 .venv
+README.md
